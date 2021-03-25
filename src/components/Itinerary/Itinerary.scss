@@ -1,0 +1,36 @@
+@import "~bpk-mixins";
+
+.Itinerary {
+  width: 100%;
+  background: white;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 0.2rem;
+
+  &__flex {
+    display: flex;
+  }
+
+  &__agent {
+    font-size: medium;
+    color: lightgrey;
+    display: block;
+  }
+
+  &__price {
+    font-size: x-large;
+    display: block;
+  }
+
+  &__button {
+    background: lightseagreen;
+    color: white;
+    width: fit-content;
+    height: 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0rem 1.3rem;
+    margin: auto 0 0 auto;
+  }
+}

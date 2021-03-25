@@ -1,0 +1,51 @@
+@import "~bpk-mixins";
+
+.Leg {
+  display: flex;
+  padding-bottom: 1rem;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  span {
+    padding: 0 0.5rem;
+  }
+
+  &__flex {
+    display: flex;
+  }
+
+  &__airport {
+    color: lightgrey;
+    display: block;
+  }
+
+  &__time {
+    display: block;
+  }
+
+  &__arrow {
+    color: lightgrey;
+    font-weight: bold;
+    font-size: x-large;
+    margin: auto 0;
+  }
+
+  &__end {
+    display: grid;
+    text-align: right;
+    margin: auto 0 auto auto;
+  }
+
+  &__duration {
+    color: lightgrey;
+    font-size: small;
+  }
+
+  &__stops {
+    color: lightseagreen;
+    font-size: small;
+  }
+}
